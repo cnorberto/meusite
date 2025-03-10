@@ -1,0 +1,111 @@
+/* Estilos gerais */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2;
+    padding: 10;
+    background-color: #f4f4f4;
+}
+
+nav img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para o menu */
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 10;
+    background-color: #9b1515;
+    text-align: center;
+}
+
+ul li {
+    display: inline-table;
+    margin: 0 20px;
+}
+
+ul li a {
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-table;
+}
+
+ul li a:hover {
+    background-color: #1111108e;
+}
+
+/* Estilo para os títulos */
+h1, h2 {
+    text-align: center;
+    color: #2a13dd;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #050505;
+}
+
+/* Estilo para o formulário */
+.formulario {
+    background-color: rgb(93, 125, 212);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.formulario label {
+    font-size: 1.1em;
+    color: #e7dddd;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #5755d1;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #dd8282;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h1 {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .formulario {
+        padding: 15px;
+        margin: 10px;
+    }
+}
